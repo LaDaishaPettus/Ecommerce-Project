@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #bfbfbf;
+}
+.navbar-brand {
+  font-family: "Poiret One", cursive;
+}
+h1 {
+  font-family: "Poiret One", cursive;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  margin-left: 10px;
+}
+img {
+  width: 400px;
+  height: 410px;
+  margin-left: 520px;
+  align-content: center;
+}
+.btn {
+  margin-left: 690px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 50px;
+}

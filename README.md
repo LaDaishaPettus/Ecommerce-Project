@@ -1,28 +1,38 @@
-# E-Commerce Site
+# React
+App made with React JS. Open sourced Javascript library used for building User Interface for singled page applications.
 
-The products must be mainstream and professional.
-Site should validate for HTML & CSS validity as well as WCAG 2.0 AA web accessibility.
+## Installations
 
-**The website must have the following pages:**
-    **Home Page:** There should be an image slideshow. The rest of the home page content is up to you.
-    **Products Page:** This page should be a visual list at least 12 products on your site. Each product should show a photo, name, price and a quick description. This page should allows the user to filter by product type and price
-    **Contact Page:** There should be a form that has a place for users to enter their name, email, add a comment, and anything else that you feel would be helpful for your website.
+### Express
+Express extends Node.js to make webservers easy to write.
+npm install express --save
 
-**Visual requirements:**
-    - Colors, logo, fonts and icons are entirely up to you. Just try to make things neat and organized.
-    - The site should use media queries to be responsive for tablet & desktop. One for less than 800 pixels and one for greater than 800 pixels. Set a max width so the site doesn’t look bad as the screen size widens. Bonus for small mobile.. 
-    - Footer with social media links (can link to your personal pages)
+### Mocha
+A javascript testing framework running on node.js used asynchronously.
+npm install mocha --save
 
-**JavaScript:**
-    - Implement a form validation for the contact form
-    - Implement a jQuery slider for the home page.
+### Chai
+A testing development driven ssertion library for node, can be paired with any Javascript testing framework.
+npm install chai --save
 
-**The project will be assessed on the following criteria:**
-    - HTML semantic structure. Validate your HTML!
-    - CSS validation & usage. Use of media query
-    - JavaScript: working scripts
+### Request
+Designed to make http calls.
+npm install request --save
 
+## Usage
+Javascript
+Client scripting language used for creating websites.
 
+```<script>
+console.log("Hello World");
+</script>
+```
+## Contributing
+Pull requests are welcome. 
+Please make sure to update tests as appropriate.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+Collapse
 
 
 

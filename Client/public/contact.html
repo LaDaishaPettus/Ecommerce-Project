@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./contact.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Decor&More</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+    <a class="navbar-brand" href="#">Decor&More</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Shop</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 style="font-size:50px">Contact Us</h1>
+      <p>For more information on our interior design services please submit your contact information below.</p>
+    </div>
+  </div>
+
+
+  <div class="Form">
+    <form onsubmit="return validateForm()" method="GET">
+      Name: <br>
+      <input type="text" name="fname" required><br>
+      Email: <br>
+      <input type="text" email="femail" required><br>
+      Phone Number: <br>
+      <input type="text" phone="fphone" required><br>
+      <br>
+      Comment: <br>
+      <textarea class="text" name="subject" placeholder="Write something.."></textarea>
+      <br>
+      <input class="button" type="submit" value="Submit">
+
+  </div>
+
+
+
+
+  <footer>
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
+      <a class="navbar-brand" href="#">&copy;Copyright Last Updated August 2019 Decor&More</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+        aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item2 active">
+            <a class="nav-link" href="https://www.facebook.com/">
+              <i class="fab fa-facebook-f"></i> Facebook
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item2">
+            <a class="nav-link" href="https://www.instagram.com/">
+              <i class="fab fa-instagram"></i> Instagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:3001/api/contact/">
+              <i class="fab fa-instagram" /> Contacts
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+  <!-- Optional JavaScript -->
+
+  <script>
+    function validateForm() {
+      var x = document.forms["myForm"]["fname"].value;
+      if (x == "") {
+        alert("Name must be filled out");
+        return false;
+      }
+      else {
+        alert("Thank you for submitting.");
+      }
+    }
+  </script>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
